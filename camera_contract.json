@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "scene_count": 798,
+  "camera_input_protocol": "all_rgb",
+  "metric_method": "Omega + MoGe-2 + GCA + overlap SE(3)",
+  "ufo_image_size": [
+    160,
+    240
+  ],
+  "source_ufo_root": "/inspire/hdd3/project/intelligent-driving-agent/public/workspace/yx/ufoposefree/pose-freeufo",
+  "omega_checkpoint": "/inspire/hdd3/project/intelligent-driving-agent/public/workspace/yx/vggt-omega/checkpoints/vggt_omega_1b_512.pt",
+  "moge_model": "/inspire/hdd3/project/intelligent-driving-agent/public/workspace/yx/ufoposefree/checkpoints/moge-2-vitl/model.pt",
+  "gt_camera_pose_used": false,
+  "gt_intrinsics_used": false,
+  "gt_depth_used": false,
+  "gt_ego_pose_used": false
+}

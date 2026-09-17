@@ -1,0 +1,65 @@
+{
+  "fields": {
+    "scene_name": {
+      "shape": [],
+      "dtype": "<U65"
+    },
+    "scope": {
+      "shape": [],
+      "dtype": "<U3"
+    },
+    "coordinate_frame": {
+      "shape": [],
+      "dtype": "<U13"
+    },
+    "metric_scale_source": {
+      "shape": [],
+      "dtype": "<U33"
+    },
+    "world_gauge": {
+      "shape": [],
+      "dtype": "<U38"
+    },
+    "frame_ids": {
+      "shape": [
+        594
+      ],
+      "dtype": "int32"
+    },
+    "camera_ids": {
+      "shape": [
+        594
+      ],
+      "dtype": "<U1"
+    },
+    "omega_c2w_global_metric": {
+      "shape": [
+        594,
+        4,
+        4
+      ],
+      "dtype": "float32"
+    },
+    "omega_camera_to_world_global_metric": {
+      "shape": [
+        594,
+        4,
+        4
+      ],
+      "dtype": "float32"
+    },
+    "predicted_intrinsics_ufo": {
+      "shape": [
+        594,
+        3,
+        3
+      ],
+      "dtype": "float32"
+    }
+  },
+  "conventions": {
+    "coordinate_frame": "global_metric",
+    "metric_scale_source": "moge2_gca_plus_overlap_camera_se3",
+    "world_gauge": "start_000_first_timestamp_front_camera"
+  }
+}

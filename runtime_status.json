@@ -1,0 +1,85 @@
+{
+  "observed_utc": "2026-09-17T16:25:39.580424+00:00",
+  "total_scenes": 798,
+  "validated_final_scenes": 585,
+  "missing_final_scenes": 213,
+  "invalid_final_scenes": 0,
+  "percent_validated": 73.31,
+  "missing_indices_first_20": [
+    585,
+    586,
+    587,
+    588,
+    589,
+    590,
+    591,
+    592,
+    593,
+    594,
+    595,
+    596,
+    597,
+    598,
+    599,
+    600,
+    601,
+    602,
+    603,
+    604
+  ],
+  "invalid_examples": [],
+  "private_ready_not_published": [],
+  "private_invalid": [],
+  "visible_processes_this_container": [],
+  "worker_logs": [
+    {
+      "worker": "worker_00",
+      "latest_stage_log": "/inspire/hdd/global_user/guoluosong-253108120129/yx-ufo/outputs/r9ufo/posefree_camera_full/parallel_workers/worker_00/logs/scene_0588_batch_0000_omega.log",
+      "modified_utc": "2026-09-17T16:25:35.692324+00:00",
+      "tail": [
+        "[batch/omega] segment-5189543236187113739_2929_000_2949_000_with_camera_labels start_093 94/179 input_s=0.05 forward_s=3.83 download_s=0.08 intrinsics_s=0.00 write_s=0.21 wait_writer_s=0.00 average_loop_s=4.04 raw_mb=118.8",
+        "[batch/omega] segment-5189543236187113739_2929_000_2949_000_with_camera_labels start_094 95/179 input_s=0.05 forward_s=3.83 download_s=0.08 intrinsics_s=0.00 write_s=0.19 wait_writer_s=0.00 average_loop_s=4.04 raw_mb=118.8",
+        "[batch/omega] segment-5189543236187113739_2929_000_2949_000_with_camera_labels start_095 96/179 input_s=0.06 forward_s=3.82 download_s=0.08 intrinsics_s=0.00 write_s=0.15 wait_writer_s=0.00 average_loop_s=4.04 raw_mb=118.8",
+        "[batch/omega] segment-5189543236187113739_2929_000_2949_000_with_camera_labels start_096 97/179 input_s=0.05 forward_s=3.83 download_s=0.08 intrinsics_s=0.00 write_s=0.16 wait_writer_s=0.00 average_loop_s=4.04 raw_mb=118.8"
+      ]
+    },
+    {
+      "worker": "worker_01",
+      "latest_stage_log": "/inspire/hdd/global_user/guoluosong-253108120129/yx-ufo/outputs/r9ufo/posefree_camera_full/parallel_workers/worker_01/logs/scene_0589_batch_0000_omega.log",
+      "modified_utc": "2026-09-17T16:25:25.624599+00:00",
+      "tail": [
+        "$ /inspire/hdd3/project/intelligent-driving-agent/public/workspace/yx/ufoposefree/.venv-moge2/bin/python /inspire/hdd/global_user/guoluosong-253108120129/yx-ufo/R9UFO/tools/r9/posefree_batch_stage.py --source-ufo-root /inspire/hdd3/project/intelligent-driving-agent/public/workspace/yx/ufoposefree/pose-freeufo --manifest-list /inspire/hdd/global_user/guoluosong-253108120129/yx-ufo/outputs/r9ufo/posefree_camera_full/parallel_workers/worker_01/batch_lists/scene_0589_0000.txt --raw-root /inspire/hdd/global_user/guoluosong-253108120129/yx-ufo/outputs/r9ufo/posefree_camera_full/parallel_workers/worker_01/omega_raw_all --scale-root /inspire/hdd/global_user/guoluosong-253108120129/yx-ufo/outputs/r9ufo/posefree_camera_full/parallel_workers/worker_01/gca_omega_scale_all --output-root /inspire/hdd/global_user/guoluosong-253108120129/yx-ufo/outputs/r9ufo/posefree_camera_full/parallel_workers/worker_01/omega_gca_metric_all --stage omega --omega-repo /inspire/hdd3/project/intelligent-driving-agent/public/workspace/yx/ufoposefree/vggt-omega --omega-checkpoint /inspire/hdd3/project/intelligent-driving-agent/public/workspace/yx/ufoposefree/vggt-omega/checkpoints/vggt_omega_1b_512.pt",
+        "[omega/start] pending=179 skipped=0 inference_batch=1 cpu_threads=4 raw_compression=stored",
+        "[omega/cache] preparing 594 unique images",
+        "[omega/disk] batch raw budget including reserve=23.9 GiB"
+      ]
+    },
+    {
+      "worker": "worker_02",
+      "latest_stage_log": "/inspire/hdd/global_user/guoluosong-253108120129/yx-ufo/outputs/r9ufo/posefree_camera_full/parallel_workers/worker_02/logs/scene_0587_batch_0000_omega.log",
+      "modified_utc": "2026-09-17T16:25:37.684387+00:00",
+      "tail": [
+        "[batch/omega] segment-514687114615102902_6240_000_6260_000_with_camera_labels start_094 95/179 input_s=0.05 forward_s=3.81 download_s=0.08 intrinsics_s=0.00 write_s=0.15 wait_writer_s=0.00 average_loop_s=4.02 raw_mb=118.8",
+        "[batch/omega] segment-514687114615102902_6240_000_6260_000_with_camera_labels start_095 96/179 input_s=0.06 forward_s=3.81 download_s=0.08 intrinsics_s=0.00 write_s=0.16 wait_writer_s=0.00 average_loop_s=4.02 raw_mb=118.8",
+        "[batch/omega] segment-514687114615102902_6240_000_6260_000_with_camera_labels start_096 97/179 input_s=0.07 forward_s=3.81 download_s=0.07 intrinsics_s=0.00 write_s=0.24 wait_writer_s=0.00 average_loop_s=4.02 raw_mb=118.8",
+        "[batch/omega] segment-514687114615102902_6240_000_6260_000_with_camera_labels start_097 98/179 input_s=0.05 forward_s=3.81 download_s=0.07 intrinsics_s=0.00 write_s=0.36 wait_writer_s=0.00 average_loop_s=4.02 raw_mb=118.8"
+      ]
+    },
+    {
+      "worker": "worker_03",
+      "latest_stage_log": "/inspire/hdd/global_user/guoluosong-253108120129/yx-ufo/outputs/r9ufo/posefree_camera_full/parallel_workers/worker_03/logs/scene_0586_batch_0000_omega.log",
+      "modified_utc": "2026-09-17T16:25:36.370250+00:00",
+      "tail": [
+        "[batch/omega] segment-5144634012371033641_920_000_940_000_with_camera_labels start_099 100/179 input_s=0.07 forward_s=3.82 download_s=0.08 intrinsics_s=0.00 write_s=0.26 wait_writer_s=0.00 average_loop_s=4.03 raw_mb=118.8",
+        "[batch/omega] segment-5144634012371033641_920_000_940_000_with_camera_labels start_100 101/179 input_s=0.06 forward_s=3.82 download_s=0.08 intrinsics_s=0.00 write_s=0.29 wait_writer_s=0.00 average_loop_s=4.03 raw_mb=118.8",
+        "[batch/omega] segment-5144634012371033641_920_000_940_000_with_camera_labels start_101 102/179 input_s=0.06 forward_s=3.83 download_s=0.08 intrinsics_s=0.00 write_s=0.31 wait_writer_s=0.00 average_loop_s=4.03 raw_mb=118.8",
+        "[batch/omega] segment-5144634012371033641_920_000_940_000_with_camera_labels start_102 103/179 input_s=0.06 forward_s=3.83 download_s=0.08 intrinsics_s=0.00 write_s=0.22 wait_writer_s=0.00 average_loop_s=4.03 raw_mb=118.8"
+      ]
+    }
+  ],
+  "raw_files": 301,
+  "raw_logical_gib": 34.933,
+  "filesystem_free_gib": 769696.8,
+  "project_quota": "unknown",
+  "note": "Read-only non-atomic observation while processing may continue; no pose-accuracy assessment."
+}
