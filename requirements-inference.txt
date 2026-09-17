@@ -1,0 +1,13 @@
+# Install a matched CUDA-enabled torch/torchvision pair for your host first.
+# The server snapshot used torch 2.10.0 / torchvision 0.25.0.
+torch>=2.3
+torchvision>=0.18
+numpy<2
+Pillow
+einops
+safetensors
+opencv-python-headless>=4.10,<5
+scipy
+huggingface_hub
+utils3d @ git+https://github.com/EasternJournalist/utils3d.git@3fab839f0be9931dac7c8488eb0e1600c236e183
+

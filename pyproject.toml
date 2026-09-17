@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adagent-posefree"
+version = "0.1.0"
+description = "Offline RGB-only camera preprocessing with Omega, MoGe/GCA and overlap alignment"
+requires-python = ">=3.10"
+dependencies = ["numpy<2", "Pillow"]
+
+[project.scripts]
+adagent-posefree = "adagent_posefree.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["adagent_posefree*"]
+

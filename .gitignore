@@ -9,3 +9,13 @@ __pycache__/
 data/
 outputs/
 checkpoints/
+*.safetensors
+*.ckpt
+*.bin
+*.zip
+*.tar*
+*.egg-info/
+build/
+dist/
+local/
+*.local.json

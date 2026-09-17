@@ -1,0 +1,14 @@
+{
+  "omega_checkpoint": "checkpoints/vggt_omega_1b_512.pt",
+  "moge_checkpoint": "checkpoints/moge-2-vitl/model.pt",
+  "output_image_size": [160, 240],
+  "window_frames": 20,
+  "window_stride": 1,
+  "window_batch_size": 179,
+  "min_overlap_poses": 9,
+  "cpu_threads": 4,
+  "raw_compression": "stored",
+  "min_free_gib_per_gpu": 37.5,
+  "keep_intermediates": false,
+  "gca_stats_device": "cuda"
+}

@@ -1,0 +1,364 @@
+{
+  "omega": {
+    "source_commit": "f2dffb059a2250f68dd30ce305fbf0b05550a03b",
+    "files": {
+      "LICENSE": {
+        "bytes": 11720,
+        "sha256": "27696e51930daf5d24222e2d9d65339f529153e853de0e2eb457133a1a6f5239"
+      },
+      "README.md": {
+        "bytes": 6277,
+        "sha256": "556ee527b49bda7e3073494bf425292635ce25678ec58d0baf09e7b9e7b88acf"
+      },
+      "pyproject.toml": {
+        "bytes": 785,
+        "sha256": "25476a2b5285c762635fc1c14b07ed9e800602c79278ac0c5545ff612f67180a"
+      },
+      "requirements.txt": {
+        "bytes": 95,
+        "sha256": "7b462dcef62bbdbb8f708000aad9ff240722456d0821584823dacf760fc7f0a0"
+      },
+      "vggt_omega/__init__.py": {
+        "bytes": 329,
+        "sha256": "0447a62b3f2ba22950c0a1eaa8f222af49bb9eff6b6f7c6bd85d90c804369083"
+      },
+      "vggt_omega/models/__init__.py": {
+        "bytes": 258,
+        "sha256": "03f463ab5ff4d343e0ef74431f21b6d049a464aaeba98ccfb23fad0bbd6ecac8"
+      },
+      "vggt_omega/models/aggregator.py": {
+        "bytes": 9045,
+        "sha256": "6b78e36ce52873edce789c97cd37dd0092b1fd5186c8e81bc650cf9c6af0fa3e"
+      },
+      "vggt_omega/models/heads/__init__.py": {
+        "bytes": 380,
+        "sha256": "8ad0eab0cbd8b0d0b96fac525bba3ce401bab7b5da83005cf7c7ad17c39adb77"
+      },
+      "vggt_omega/models/heads/camera_head.py": {
+        "bytes": 3045,
+        "sha256": "ff12f931f12df8cd2a65e58f13c2fed01e648747c9e06b0b966df283b600fd47"
+      },
+      "vggt_omega/models/heads/dense_head.py": {
+        "bytes": 12054,
+        "sha256": "40261c8ae7f12aca04f1ae0ff1dc6e2ae10d09daf2c6ecd781bbd3e2aad123d8"
+      },
+      "vggt_omega/models/heads/text_alignment_head.py": {
+        "bytes": 3113,
+        "sha256": "e683011ca06ddf952dd2ae55f00ade500ffdd85070acf20c6d381599348e41d7"
+      },
+      "vggt_omega/models/heads/utils.py": {
+        "bytes": 3919,
+        "sha256": "72b6c9edd0d0db49e780dd89e05c0f8c3e917df22b7ba373c3a1025fd598c468"
+      },
+      "vggt_omega/models/layers/__init__.py": {
+        "bytes": 793,
+        "sha256": "4eb3279d6ce40d641b7b6dcd6d761848a79386761c6cea19481a57e43fe7bbd5"
+      },
+      "vggt_omega/models/layers/attention.py": {
+        "bytes": 7034,
+        "sha256": "44a73b818abf6634c87a20a720c15255808f1cc0de9b61c0a866fa8dff305c86"
+      },
+      "vggt_omega/models/layers/block.py": {
+        "bytes": 10677,
+        "sha256": "6a24df9816017cd2c50ce2d0f94c50cf46c9e75f241401dbdcb705c8839f2c2f"
+      },
+      "vggt_omega/models/layers/ffn_layers.py": {
+        "bytes": 2784,
+        "sha256": "f1ac17ac2c335edfb9c423a3b5e935ff0e11a635c17d031effa229eba98dba7d"
+      },
+      "vggt_omega/models/layers/layer_scale.py": {
+        "bytes": 998,
+        "sha256": "4817e001e32bc566a74ba9c17677e3c994a7802135dff42777a4fa95fa4f3b01"
+      },
+      "vggt_omega/models/layers/patch_embed.py": {
+        "bytes": 3074,
+        "sha256": "d2b8778793de1b2f31739263cd06e02214067bdde990da77d887b97a0d9c7be3"
+      },
+      "vggt_omega/models/layers/rms_norm.py": {
+        "bytes": 921,
+        "sha256": "474a2f31700d8cbb6f7ba72ff696adc03b2b308dc4b715052c22c86c4e3d5b56"
+      },
+      "vggt_omega/models/layers/rope_position_encoding.py": {
+        "bytes": 5504,
+        "sha256": "75447ac59848596f0353009ce16fe024d911914debd81e23abd2255636ecc5a1"
+      },
+      "vggt_omega/models/layers/utils.py": {
+        "bytes": 4098,
+        "sha256": "0629d985c307a4df8bcab08e48ccac7f5e7f3de06674d915d798bbf476b930e4"
+      },
+      "vggt_omega/models/layers/vision_transformer.py": {
+        "bytes": 15415,
+        "sha256": "7464c73e1f229c3fe230764887353d1072c0c8e1a61867856fffd24774b8afb6"
+      },
+      "vggt_omega/models/vggt_omega.py": {
+        "bytes": 3442,
+        "sha256": "0432482a3144453b954cf6f3e11a6e198d2fac5c19bcb32fa1252a589ec82fd6"
+      },
+      "vggt_omega/utils/__init__.py": {
+        "bytes": 251,
+        "sha256": "58cc00a3bfd523e6b0d396a37defe8748f8e9b402db7c416e6492d3c6e37e56a"
+      },
+      "vggt_omega/utils/geometry.py": {
+        "bytes": 1035,
+        "sha256": "9f10837532095c49b8b9c1413cb2cd02275efbd89c43d81434fe02d478af58b5"
+      },
+      "vggt_omega/utils/load_fn.py": {
+        "bytes": 4699,
+        "sha256": "a8da157a4c9fbf4212d70dbb9d065389d7beb41a9c6e23d2814f3bdee6d5f735"
+      },
+      "vggt_omega/utils/pose_enc.py": {
+        "bytes": 1800,
+        "sha256": "494b1b2482c748bc07499f5e695e0d36fd36dda4380d5a112b5e1b0937d31359"
+      },
+      "vggt_omega/utils/rotation.py": {
+        "bytes": 4482,
+        "sha256": "4f05fdf1f26c0dbcf6eb3246dc0dec0e050dd72003c964f44026d57e0b446669"
+      }
+    }
+  },
+  "moge": {
+    "source_commit": "07444410f1e33f402353b99d6ccd26bd31e469e8",
+    "files": {
+      "LICENSE": {
+        "bytes": 12500,
+        "sha256": "ad7d951c80c5fc2b2bce035f2041bc0a0dbf9028c8ecc4c9a8e1fba8130b6b59"
+      },
+      "README.md": {
+        "bytes": 12349,
+        "sha256": "a2c691163d7f4ec066c1a20c7b0a1b7cbd2e1406155600a46d5664501e1eba7f"
+      },
+      "pyproject.toml": {
+        "bytes": 943,
+        "sha256": "1c1c41fc449cee5e30cb02c36d4c7b208812f48739e7bcfdffc5a22207f1a3c2"
+      },
+      "requirements.txt": {
+        "bytes": 681,
+        "sha256": "aff0d7e9df26146afdcd0e7a4a30d967fd07a8da25c30be0737607b414a81a17"
+      },
+      "moge/__init__.py": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "moge/model/__init__.py": {
+        "bytes": 555,
+        "sha256": "8cf7085951f070021c3e212f35570d924aaa85e98002c285bc7c1df917d36294"
+      },
+      "moge/model/dinov2/__init__.py": {
+        "bytes": 218,
+        "sha256": "0d2b87b7e71c7f7279ccc4b4f8b541d26071425284a0ea01a5a435fac4511cfe"
+      },
+      "moge/model/dinov2/hub/__init__.py": {
+        "bytes": 195,
+        "sha256": "2932e94a2d67be87b717c49468214c1127be7864aedf37f5891d26be7bc1437f"
+      },
+      "moge/model/dinov2/hub/backbones.py": {
+        "bytes": 4991,
+        "sha256": "11c3b7e3da2a843ba5953191e8fc2027b37490313dfb315c0d4ad1a0ea31d27d"
+      },
+      "moge/model/dinov2/hub/utils.py": {
+        "bytes": 1260,
+        "sha256": "c0533919016531b320bf9aef7cd7001249bc8ef8957cdb29246c15b67d5abdf8"
+      },
+      "moge/model/dinov2/layers/__init__.py": {
+        "bytes": 411,
+        "sha256": "5b5f637b2371089e34e0bec9a49518e2250f915aa9e10cae83a32f8e671ad24f"
+      },
+      "moge/model/dinov2/layers/attention.py": {
+        "bytes": 3235,
+        "sha256": "cc3f20ec18a07061297bcbeacc842aec43534f8eb5fd62516273c2c3385a6b79"
+      },
+      "moge/model/dinov2/layers/block.py": {
+        "bytes": 9619,
+        "sha256": "13a024d6b45dd0c63300f0ef0b5135d8551dc563436c4d70fc4ec7c44980023b"
+      },
+      "moge/model/dinov2/layers/dino_head.py": {
+        "bytes": 2007,
+        "sha256": "9fdb1fa61c0609dc0876f711f9d0d828c33bf9fd972aab3d9c968d44e16b98d1"
+      },
+      "moge/model/dinov2/layers/drop_path.py": {
+        "bytes": 1157,
+        "sha256": "b9f8236e86054b9d9a71275efcad2a9ecaa1f86b529d4b8d6109ddb5e806f67a"
+      },
+      "moge/model/dinov2/layers/layer_scale.py": {
+        "bytes": 820,
+        "sha256": "abb7bbfae152a9de2e6d0961ab5e75c79428e849281bfe50dd07b66b54b485d1"
+      },
+      "moge/model/dinov2/layers/mlp.py": {
+        "bytes": 1269,
+        "sha256": "255825c73b60a916dd00eb1e38aacbcdbf316e40d6a005efb46e245b7edb43aa"
+      },
+      "moge/model/dinov2/layers/patch_embed.py": {
+        "bytes": 2829,
+        "sha256": "40da6add3d811198ea3e17cb99cdd4e5cda59e369efbbe3d18d89308618cf142"
+      },
+      "moge/model/dinov2/layers/swiglu_ffn.py": {
+        "bytes": 2188,
+        "sha256": "4c75f68d902cf497cb51e770ab8720057fa9957dd4c93da83aaf4f8893d14538"
+      },
+      "moge/model/dinov2/models/__init__.py": {
+        "bytes": 1486,
+        "sha256": "87b360c71997314f41be1c497cc42326fc32617d3a2840f2f19d3795ca8b85ee"
+      },
+      "moge/model/dinov2/models/vision_transformer.py": {
+        "bytes": 15232,
+        "sha256": "1df8a949cf9e7eb3e1e4721f3a82839a0685b9dc94c52a5f5a9ab6ee9ffb0cd0"
+      },
+      "moge/model/dinov2/utils/__init__.py": {
+        "bytes": 195,
+        "sha256": "2932e94a2d67be87b717c49468214c1127be7864aedf37f5891d26be7bc1437f"
+      },
+      "moge/model/dinov2/utils/cluster.py": {
+        "bytes": 3010,
+        "sha256": "ea195476b1f5316520c07233eb73ff4b0e5fe3f7a2645aacec5b416e7bed157c"
+      },
+      "moge/model/dinov2/utils/config.py": {
+        "bytes": 2211,
+        "sha256": "588574a78951ccfe7ffaad9ef7cab53d37e837e3ae98cfc1b6a976189073d87c"
+      },
+      "moge/model/dinov2/utils/dtype.py": {
+        "bytes": 1104,
+        "sha256": "610251537bcf55de8961a17dd625560eae5cfa5082e9382bbd9ded86db92e1c6"
+      },
+      "moge/model/dinov2/utils/param_groups.py": {
+        "bytes": 3761,
+        "sha256": "ec1daae9eb7c50492091504f97087e3179d46a080d7b7f131967c07cb15cf6d4"
+      },
+      "moge/model/dinov2/utils/utils.py": {
+        "bytes": 3240,
+        "sha256": "10bfc824fdb00cf0c4afc0a875b5763ad4c5f33ec38c2515b12528307b789305"
+      },
+      "moge/model/modules.py": {
+        "bytes": 12150,
+        "sha256": "cb5d7ff75f410be2f8466fc5ca164e04f7b991385c141b3d896c02ead7858fc2"
+      },
+      "moge/model/utils.py": {
+        "bytes": 1747,
+        "sha256": "cb7279c4295afae9278b13d70181128ab2e29027b08a012a1b0f33213c16de22"
+      },
+      "moge/model/v1.py": {
+        "bytes": 18925,
+        "sha256": "a6c030f2e93e3c02268dc6d523a33d74299b6d012c3c2bf34c7e7c4a44646241"
+      },
+      "moge/model/v2.py": {
+        "bytes": 13460,
+        "sha256": "e736ed59fdb8ad89ec0c29ddfeeccd6a4246c387b3f423b922708366b69758fd"
+      },
+      "moge/scripts/__init__.py": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "moge/scripts/app.py": {
+        "bytes": 13475,
+        "sha256": "8ea56be9dbcfaec9dd6a0f41f670e140a3a6f71f48f8e85a3e4eb7232be2e0ba"
+      },
+      "moge/scripts/cli.py": {
+        "bytes": 785,
+        "sha256": "86419e34bbfd15d0646b1d3821fa68651cb21f316428be862ed1df0a126395d0"
+      },
+      "moge/scripts/eval_baseline.py": {
+        "bytes": 8531,
+        "sha256": "17702081385cc1221e7ad04d57fbcabb687d1d9705a63011f20c0626b826f3fe"
+      },
+      "moge/scripts/infer.py": {
+        "bytes": 8983,
+        "sha256": "76b59a7edbb63748ee028f5479aa2ee8beecae4b0e8d240b2166e4207d4e1649"
+      },
+      "moge/scripts/infer_baseline.py": {
+        "bytes": 7553,
+        "sha256": "dfc2ff6b161dceceeeecc31456e9e4ac534de3d0457954cea375ba061e27fbb2"
+      },
+      "moge/scripts/infer_panorama.py": {
+        "bytes": 8818,
+        "sha256": "fddd6f0112dbcb91c10c2a3909a6e3c4367dd1b4466c1ed0f283b3a20171251f"
+      },
+      "moge/scripts/train.py": {
+        "bytes": 25750,
+        "sha256": "969c12ce3be0a70183da7f6015c3d80ee9cb5c6d92a944b4d662b3e3527f06cd"
+      },
+      "moge/scripts/vis_data.py": {
+        "bytes": 3211,
+        "sha256": "5f19d6ea30bc4b76fe8ccb1a71423b65bd15b262fc9d3356150c98098464483c"
+      },
+      "moge/test/__init__.py": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "moge/test/baseline.py": {
+        "bytes": 1825,
+        "sha256": "8f62da7022ab16f3f00556ac38580f085c68477d9200722646c77a78720a0d75"
+      },
+      "moge/test/dataloader.py": {
+        "bytes": 10237,
+        "sha256": "086974ff7f31378e202a187a73e4224db058fe834de34027850f04871672c60e"
+      },
+      "moge/test/metrics.py": {
+        "bytes": 14683,
+        "sha256": "f581a2cf1d625127e644f4648d7e8d6414ba3ae0792dc18e3a076ba1e0a4acbf"
+      },
+      "moge/train/__init__.py": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "moge/train/dataloader.py": {
+        "bytes": 11819,
+        "sha256": "0da45febd0e798de25828ee44ff38a5c9a4bad98c9db07796dce3eb10e45c210"
+      },
+      "moge/train/losses.py": {
+        "bytes": 14832,
+        "sha256": "05c090c901e038be389df4cee04dea05444f5c6f2ff4dce9bfc76fe761c7c325"
+      },
+      "moge/train/utils.py": {
+        "bytes": 2504,
+        "sha256": "97b645e3789cb4739ef87437313405b6b0b2dc04e745ae99f3bc987a3b22e723"
+      },
+      "moge/utils/__init__.py": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "moge/utils/alignment.py": {
+        "bytes": 21116,
+        "sha256": "85f65b3648a557fd39e76014503a892b2aceea7cd5e0471a1de1def68f0c31e1"
+      },
+      "moge/utils/data_augmentation.py": {
+        "bytes": 11821,
+        "sha256": "c86762cf72aa07d59a75da42d8d0f2dd45bfd9b1eed14bbed8d05da15f8e8bbd"
+      },
+      "moge/utils/download.py": {
+        "bytes": 1971,
+        "sha256": "929fde9df713247927b93807809ffa9b5a49572d6bd5bd1ae57235d2c8f4fc91"
+      },
+      "moge/utils/geometry_numpy.py": {
+        "bytes": 10110,
+        "sha256": "f540c5b8ef55bfffcc32b1a62b38be605683e29fbf399ca86dfcbfc458ce4c10"
+      },
+      "moge/utils/geometry_torch.py": {
+        "bytes": 11844,
+        "sha256": "2f8d5de7d671af16d25fe13c555fd73855d8447bc086bb23aa42e859b303fb05"
+      },
+      "moge/utils/io.py": {
+        "bytes": 9156,
+        "sha256": "36dcbc1fc933dcd19d2c97d3a7a3d556ce3f3a191055bb4cc6f93168c4ef32ba"
+      },
+      "moge/utils/panorama.py": {
+        "bytes": 9712,
+        "sha256": "861e747f6fa5d9c855cd4e9d7964165a6d3e3e73f81ad78d6dfe98f6b6d70d8d"
+      },
+      "moge/utils/tools.py": {
+        "bytes": 8784,
+        "sha256": "ee4893ddbc49da5b24ab43277e9693e86a842dace69452803bab85b531121f60"
+      },
+      "moge/utils/vis.py": {
+        "bytes": 2930,
+        "sha256": "eb4d3d9a77caf923628312ab56e5fc241f39a2d3f2c066a763e76ce49842c1a9"
+      },
+      "moge/utils/webfile.py": {
+        "bytes": 2223,
+        "sha256": "3ffcd69e343b9c867cf52c80ec1923f76478a6e8bda712cc677bfefb077b0777"
+      },
+      "moge/utils/webzipfile.py": {
+        "bytes": 5131,
+        "sha256": "5e68057dad8f05ecbd08883f2b960211512c28bdb0243d32700ec5102b735668"
+      }
+    }
+  }
+}
